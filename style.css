@@ -1,0 +1,85 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    position: relative;
+  }
+  
+
+  h1 {
+    font-size: 48px;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0px;
+  }
+  
+  .Infos {
+    margin-bottom: 15px;
+  }
+
+  .Infos_Start {
+    color: blue;
+    text-decoration: underline;
+    text-decoration-color: blue;
+  }
+  
+
+
+
+
+
+
+
+
+  .Blauer_Balken_Oben {
+    color: blue;
+    background-color: blue;
+    width: 400px;
+    border: 15px blue;
+    padding: 50px;
+
+    transform: rotate(-45deg);
+    position: absolute;
+    left: -275px;
+  }
+
+
+  .Blauer_Kreis_Oben {
+    color: blue;
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 15px blue;
+    padding: 50px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin-top: -10%;
+    margin-left: 90%;
+
+    opacity: 0;
+  }
